@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  width: 85%;
+}
+
+/* navbar style */
+.nav {
+  background-color: aquamarine;
+}
+.nav__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.nav__content h1 {
+  color: beige;
+}
+.brand {
+  text-decoration: none;
+}
+.create__link {
+  padding: 0.5rem;
+  background-color: beige;
+  text-decoration: none;
+  color: darkcyan;
+  border-radius: 10px;
+}
+.create__link:hover {
+  background-color: rgb(165, 165, 147);
+  opacity: 6s;
+}
+
+/* Data table style */
+.data {
+  margin: 5rem 0;
+}
+table {
+  width: 100%;
+}
+table,
+th,
+td {
+  text-align: center;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.option {
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-del {
+  color: red;
+  background-color: transparent;
+  border: none;
+}
+.btn-del:hover {
+  color: rgb(245, 177, 177);
+}
+
+.btn-edit {
+  color: green;
+  background-color: transparent;
+  border: none;
+}
+.btn-edit:hover {
+  color: rgb(163, 219, 163);
+}
+
+/* contact creater page style */
+
+.contact__form {
+  margin: 5rem 0;
+}
+.form {
+  margin: 0 auto;
+  width: 70%;
+}
+.form h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: rgb(99, 96, 96);
+}
+input {
+  width: 100%;
+  margin: 0.5rem 0;
+}
+.btn-submit {
+  width: 100%;
+  background-color: aquamarine;
+  color: rgb(99, 96, 96);
+  padding: 0.5rem 0;
+  border: none;
+  border-radius: 5px;
+}
+.btn-submit:hover {
+  background-color: rgb(110, 129, 123);
+}
